@@ -1,0 +1,203 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+@font-face {
+  font-family: helvetica;
+  src: url(../fonts/Helvetica/HelveticaNeueThin.ttf);
+}
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato/Lato-Thin.ttf);
+}
+
+@font-face {
+  font-family: opinion;
+  src: url(../fonts/Opinion/Mint_Opinion.ttf);
+}
+
+.logo {
+  height: 40px;
+  margin: 0px 3px 0 0;
+  padding: 0;
+}
+.display-4{
+  letter-spacing: 3px;
+
+}
+
+#nishant_myheader {
+  background-image: url("../img/back.jpg");
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: auto;
+  padding-bottom: 29.2%;
+  /*text-align: center;*/
+  color: white;
+}
+
+.nav-item {
+  padding: 0px 12px;
+}
+
+#contact-item{
+  padding-right: 50px;
+}
+
+#name, 
+#description {
+    opacity: 0;
+}
+
+#about p {
+  opacity: 0;
+}
+
+.cert1, .cert2, .cert3, .my-image, .icons {
+  opacity: 0;
+}
+
+#name.animate__animated, #description.animate__animated {
+    opacity: 1;
+}
+
+#about p  .animate__animated{
+    opacity: 1;
+}
+
+.cert1.animate__animated, .cert2.animate__animated, 
+.cert3.animate__animated, .my-image.animate__animated,
+.icons.animate__animated, .fun_animate__animated {
+  opacity: 1;
+}
+
+.display-4 {
+  padding-top: 100px;
+  padding-bottom: 3px;
+}
+
+
+#about {
+  text-align: center;
+  padding: 10% 20% 20%;
+}
+
+#about h1{
+  padding-bottom: 30px;
+}
+
+a .hover-course {
+  text-decoration: none;
+}
+.certi {
+  height: 100%;
+  background-color: #f0f0f0;  
+}
+
+.certi h1{
+  text-align: center;
+  padding: 50px auto;
+}
+
+.certi h3{
+  padding: 30px 10px;
+}
+
+.cert-img-duke {
+  width: 200px;
+  height: auto;
+}
+
+.cert-img-nettech {
+  width: 200px;
+  height: auto;
+}
+.course-description {
+  padding: 10px 40px;
+  font-size: 20px;
+}
+#emoji-section {
+  width: 100%;
+  height: 100%;
+}
+.fun {
+  font-size: 30px;
+  width: 100%;
+  margin: 1px 0;
+  padding: 20px 0;
+}
+
+.gif {
+  max-width: 100%;
+}
+.my-4 {
+  margin: 0 0 !important;
+}
+
+div .my-image {
+  padding: 10px auto 20px;
+  align-self: center;
+  
+}
+
+#contact {
+  padding-bottom: 100px;
+  padding-top: 60px;
+  background-color: #f0f0f0;
+}
+
+#contact h2{
+  padding-bottom: 40px;
+}
+
+.social {
+  padding-bottom: 70px !important;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-linkedin:hover, .fa-instagram:hover, .fa-youtube:hover, 
+.fa-google-plus-g:hover, .fa-twitter:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding: 4% 0;
+}
+
+footer h2 {
+  font-weight: 200;
+}
